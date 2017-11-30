@@ -28,4 +28,26 @@ public class SecretMessageBox {
 
 	// 5. If the password does not match, pop-up "INTRUDER!!"
 
+	public static void main(String[] args) {
+		// 1:
+		String password="cats.and.cupcakes";
+		// 2:
+		String message= JOptionPane.showInputDialog("What will be the super secret message?");
+		// 3:
+		String passcode= JOptionPane.showInputDialog("What's the super secret password?");
+		if(passcode.equals(password)) {
+			JOptionPane.showMessageDialog(null, message);
+		}
+		else {
+		JOptionPane.showMessageDialog(null, "WARNING! INTRUDER!");	
+		
+		
+		
+		
+		
+		
+		
+	}
 }
+}
+
