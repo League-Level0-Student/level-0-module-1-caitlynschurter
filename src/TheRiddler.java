@@ -47,7 +47,7 @@ JOptionPane.showMessageDialog(null, "Sorry, but dat's wrong");
 			JOptionPane.showMessageDialog(null, "Sorry, but dat's wrong");	
 		}
 		JOptionPane.showMessageDialog(null, "Your score is " +score);
-		
+		 
 		
 		
 	}	
